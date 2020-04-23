@@ -4,7 +4,7 @@
 
 pkgname=sailfish-user-managerd-git
 _srcname=sailfish-user-managerd
-pkgver=0.2.0.r0.g317f9b7
+pkgver=0.4.1.r2.g36b9d46
 pkgrel=1
 pkgdesc="Sailfish user manager daemon"
 arch=('x86_64' 'aarch64')
