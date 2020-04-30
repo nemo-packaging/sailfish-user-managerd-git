@@ -4,14 +4,14 @@
 
 pkgname=sailfish-user-managerd-git
 _srcname=sailfish-user-managerd
-pkgver=0.4.1.r2.g36b9d46
+pkgver=0.5.2.r0.gcf41a9a
 pkgrel=1
 pkgdesc="Sailfish user manager daemon"
 arch=('x86_64' 'aarch64')
 url="https://github.com/sailfishos/user-managerd"
 license=('BSD')
-depends=('qt5-base')
-makedepends=('git' 'libuser' 'sailfish-access-control-git')
+depends=('libuser' 'sailfish-access-control-git' 'qt5-mce-git')
+makedepends=('git')
 optdepends=()
 provides=("${_srcname}")
 conflicts=()
